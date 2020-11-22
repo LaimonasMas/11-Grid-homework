@@ -1,0 +1,171 @@
+body {
+    display: grid;
+    grid-template-columns: 10px 1fr 10px;
+    grid-template-rows: 1fr 3fr 9fr 2fr 8fr 2fr 2fr;
+    text-align: center;
+}
+    .header {
+        display: inline-block;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        background-color: orchid;
+    }
+    .hero {
+        display: inline-block;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        background-color: aqua;
+    }
+    .services {
+        display: inline-block;
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+        background-color: blue;
+    }
+        .container-services{
+            display: grid;
+            grid-template-columns: 10px 1fr 10px;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+            .serv1 {
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+                background-color: burlywood;
+            }
+            .serv2 {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                background-color: chartreuse;
+            }
+            .serv3 {
+                grid-column: 2 / 3;
+                grid-row: 3 / 4;
+                background-color: yellow;
+            }
+    .freelance {
+        display: inline-block;
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+        background-color: turquoise;
+    }
+    .testimonials {
+        display: inline-block;
+        grid-column: 2 / 3;
+        grid-row: 5 / 6;
+        background-color: tomato;
+    }
+        .container-testimonials {
+            display: grid;
+            grid-template-columns: 10px 1fr 10px;
+            grid-template-rows: 1fr 1fr;
+        }
+            .test1 {
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+                background-color: silver;
+            }
+            .test2 {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+                background-color: pink;
+            }
+    .footer {
+        display: inline-block;
+        grid-column: 2 / 3;
+        grid-row: 6 / 7;
+        background-color: orange;
+    }
+    .navigation {
+        display: inline-block;
+        grid-column: 2 / 3;
+        grid-row: 7 / 8;
+        background-color: mediumvioletred;
+    }
+
+@media (min-width: 600px) {
+    body {
+        display: grid;
+        grid-template-columns: 10px 1fr 10px;
+        grid-template-rows: 2fr 6fr 7fr 7fr 3fr 3fr;
+        text-align: center;
+    }
+        .header {
+            display: inline-block;
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+            background-color: orchid;
+        }
+        .hero {
+            display: inline-block;
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+            background-color: aqua;
+        }
+        .services {
+            display: inline-block;
+            grid-column: 2 / 3;
+            grid-row: 3 / 4;
+            background-color: blue;
+        }
+            .container-services{
+                display: grid;
+                grid-template-columns: 10px 1fr 10px;
+                grid-template-rows: 1fr 1fr 1fr;
+            }
+                .serv1 {
+                    grid-column: 2 / 3;
+                    grid-row: 1 / 2;
+                    background-color: burlywood;
+                }
+                .serv2 {
+                    grid-column: 2 / 3;
+                    grid-row: 2 / 3;
+                    background-color: chartreuse;
+                }
+                .serv3 {
+                    display: none;
+                    grid-column: 2 / 3;
+                    grid-row: 3 / 4;
+                    background-color: yellow;
+                }
+        .freelance {
+            display: inline-block;
+            grid-column: 2 / 3;
+            grid-row: 4 / 5;
+            background-color: turquoise;
+        }
+        .testimonials {
+            display: inline-block;
+            grid-column: 2 / 3;
+            grid-row: 5 / 6;
+            background-color: tomato;
+        }
+            .container-testimonials {
+                display: grid;
+                grid-template-columns: 10px 1fr 10px;
+                grid-template-rows: 1fr 1fr;
+            }
+                .test1 {
+                    grid-column: 2 / 3;
+                    grid-row: 1 / 2;
+                    background-color: silver;
+                }
+                .test2 {
+                    grid-column: 2 / 3;
+                    grid-row: 2 / 3;
+                    background-color: pink;
+                }
+        .footer {
+            display: inline-block;
+            grid-column: 2 / 3;
+            grid-row: 6 / 7;
+            background-color: orange;
+        }
+        .navigation {
+            display: none;
+            grid-column: 2 / 3;
+            grid-row: 7 / 8;
+            background-color: mediumvioletred;
+        }
+    
+}
