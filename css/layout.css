@@ -87,6 +87,9 @@ body {
         grid-row: 7 / 8;
         background-color: mediumvioletred;
     }
+    .advert {
+        display: none;
+    }
 
 @media (min-width: 600px) {
     body {
@@ -190,6 +193,9 @@ body {
             grid-column: 2 / 3;
             grid-row: 7 / 8;
             background-color: mediumvioletred;
+        }
+        .advert {
+            display: none;
         }
     }
 
