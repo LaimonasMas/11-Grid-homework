@@ -1,9 +1,11 @@
 /* smartphone sizes */
 body {
     display: grid;
+    grid-gap: 5px;
     grid-template-columns: 10px 1fr 10px;
     grid-template-rows: auto auto auto auto auto auto auto;
     text-align: center;
+    background-color: antiquewhite;
 }
     .header {
         display: inline-block;
@@ -39,6 +41,7 @@ body {
         }
         .container-services{
             display: grid;
+            grid-gap: 5px;
             grid-template-columns: 10px 1fr 10px;
             grid-template-rows: 1fr 1fr 1fr;
         }
@@ -72,6 +75,7 @@ body {
     }
         .container-testimonials {
             display: grid;
+            grid-gap: 5px;
             grid-template-columns: 10px 1fr 10px;
             grid-template-rows: 1fr 1fr;
         }
